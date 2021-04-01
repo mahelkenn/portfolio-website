@@ -91,6 +91,20 @@ header {
   background-color: #1AFFD5;
 }
 
+nav ul {
+  margin: 0;
+}
+
+.hero-area {
+  height: 600px;
+  background: url(../img/sean-o-KMn4VEeEPR8-unsplash.jpg) center no-repeat gray;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero-area h1 {
+  margin: 0;
+}
+
 
 
 /* ==========================================================================
