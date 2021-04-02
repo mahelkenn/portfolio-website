@@ -88,11 +88,26 @@ textarea {
    ========================================================================== */
 
 header {
-  background-color: #1AFFD5;
+  background-color: #525955;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul {
   margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform:uppercase;
 }
 
 .hero-area {
@@ -106,7 +121,7 @@ nav ul {
 }
 
 .about {
-  background-color: #D6CDC6;
+  background-color: #5EB0B6;
 }
 
 .about .content-wrapper {
