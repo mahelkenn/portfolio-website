@@ -95,13 +95,22 @@ header nav {
   display: flex;
   justify-content: flex-end;
 }
+/*
+header .content-wrapper {
+  display: flex;
+}
+*/
+header p {
+  color: white;
+}
 
 nav ul {
+  width: 30%;
   margin: 0;
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 nav a {
