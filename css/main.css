@@ -91,22 +91,28 @@ header {
   background-color: #525955;
 }
 
+header .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  width: 50%;
+  color: white;
+  margin: 0;
+  font-size: 2em;
+}
+
 header nav {
   display: flex;
   justify-content: flex-end;
-}
-/*
-header .content-wrapper {
-  display: flex;
-}
-*/
-header p {
-  color: white;
+  width: 50%;
+  align-items: center;
 }
 
 nav ul {
-  width: 30%;
   margin: 0;
+  width: 60%;
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
