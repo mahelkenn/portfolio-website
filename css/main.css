@@ -87,8 +87,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-header {
+header, footer {
   background-color: #525955;
+}
+
+.content-wrapper {
+  padding: 10px;
 }
 
 header .content-wrapper {
@@ -170,6 +174,10 @@ nav a {
 
 .my-skills p {
   text-align: center;
+}
+
+footer h2 {
+  margin: 0;
 }
 
 
