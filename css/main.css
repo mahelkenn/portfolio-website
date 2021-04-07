@@ -176,8 +176,27 @@ nav a {
   text-align: center;
 }
 
+footer {
+  color: white;
+}
+
 footer h2 {
   margin: 0;
+}
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
 }
 
 
