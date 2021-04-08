@@ -184,7 +184,11 @@ footer h2 {
   margin: 0;
 }
 
-footer .content-wrapper {
+footer {
+  text-align: center;
+}
+
+footer .contacts{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -192,13 +196,18 @@ footer .content-wrapper {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
-.copyright {
-  text-align: center;
+.social-icons a i {
+  color: #5EB0B6;
+  font-size: 3em;
+  margin: 25px;
 }
 
+footer h3 {
+  padding: 0 10px 30px 10px;
+  margin: 0;
+}
 
 /* ==========================================================================
    Helper classes
