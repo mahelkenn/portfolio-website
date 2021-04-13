@@ -312,6 +312,7 @@ footer h3 {
     color: white;
     margin: 0;
     font-size: 2em;
+    border-bottom: none;
   }
 
   header nav {
@@ -334,10 +335,12 @@ footer h3 {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
+    flex-flow: row wrap;
   }
   
   .my-life {
     width: 45%;
+    padding-right: 20px;
     border-right: gray 1px dotted;
   }
   
