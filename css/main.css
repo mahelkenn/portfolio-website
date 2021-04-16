@@ -161,7 +161,7 @@ nav a {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  border-bottom: black 3px solid;
+  border-bottom: gray 2px solid;
 }
 
 .about h2 {
@@ -198,12 +198,24 @@ nav a {
   flex-flow: column wrap;
 }
 
+.work .projects {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.page {
+  width: 45%;
+}
+
 .work img {
-  width: 40%;
+  width: 95%;
 }
 
 .work p {
-  width: 40%;
+  width: 95%;
+  margin: 0;
 }
 
 footer {
