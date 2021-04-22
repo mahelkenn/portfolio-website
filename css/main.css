@@ -206,7 +206,13 @@ nav a {
 }
 
 .page {
-  width: 45%;
+  width: 95%;
+}
+
+.page a {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .work img {
@@ -397,6 +403,10 @@ footer h3 {
   
   .my-skills p {
     text-align: center;
+  }
+
+  .page {
+    width: 45%;
   }
 
 }
