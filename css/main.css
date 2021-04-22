@@ -196,6 +196,7 @@ nav a {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  padding-bottom: 0px;
 }
 
 .work .projects {
@@ -207,12 +208,14 @@ nav a {
 
 .page {
   width: 95%;
+  margin: 10px 0;
 }
 
 .page a {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin: 10px 0;
 }
 
 .work img {
@@ -222,6 +225,7 @@ nav a {
 .work p {
   width: 95%;
   margin: 0;
+  text-align: center;
 }
 
 footer {
