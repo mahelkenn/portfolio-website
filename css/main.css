@@ -87,6 +87,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* font-family: 'Merienda', cursive;
+   font-family: 'Permanent Marker', cursive; */
+
+h1 {
+  font-family: 'Merienda', cursive;
+}
+
 header, footer {
   background-color: #525955;
   display: flex;
@@ -106,10 +113,11 @@ header .content-wrapper {
 }
 
 header p {
-  width: 50%;
+  width: 80%;
   color: white;
   margin: 10px 0;
   font-size: 2em;
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
   border-bottom: gray 1px dotted;
 }
