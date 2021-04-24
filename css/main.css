@@ -368,33 +368,27 @@ footer h3 {
 /* ----------------DELETE EXTRA STUFF NOT NEEDED FROM MOBILE --------------- */
 
   header .content-wrapper {
-    display: flex;
     justify-content: space-between;
+  }
+
+  header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
   }
 
   header p {
     width: 50%;
-    color: white;
     margin: 0;
-    font-size: 2em;
     border-bottom: none;
   }
 
   header nav {
-    display: flex;
     justify-content: flex-end;
     width: 50%;
-    align-items: center;
+    margin-bottom: 0px;
   }
 
-  nav ul {
-    margin: 0;
-    width: 60%;
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
 
   .about .content-wrapper {
     display: flex;
