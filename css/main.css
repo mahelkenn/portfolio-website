@@ -423,8 +423,12 @@ footer h3 {
 @media only screen and (min-width: 1200px) {
   /* Style adjustments for tablet */
   nav ul {
-    width: 60%;
+    width: 80%;
+  }
 
+  .page {
+    width: 30%;
+  }
 
 }
 
