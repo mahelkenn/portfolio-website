@@ -89,9 +89,13 @@ textarea {
 
    /* font-family: 'Merienda', cursive;
    font-family: 'Permanent Marker', cursive; */
+body {
+   font-family: 'Oxygen', sans-serif;
+   font-size: 16px;
+}
 
 h1 {
-  font-family: 'Merienda', cursive;
+  font-size: 3em;
 }
 
 header, footer {
@@ -144,6 +148,7 @@ nav a {
   color: white;
   text-decoration: none;
   text-transform:uppercase;
+  font-weight: 700;
 }
 
 .hero-area {
@@ -178,6 +183,7 @@ nav a {
 
 .my-life {
   width: 75%;
+  font-size: 1.5em;
 }
 
 .my-life p {
@@ -186,6 +192,7 @@ nav a {
 
 .my-skills {
   width: 75%;
+  font-size: 1.5em;
 }
 
 .my-skills p {
@@ -272,6 +279,10 @@ a {
 footer h3 {
   padding: 0 10px 30px 10px;
   margin: 0;
+}
+
+footer .copyright {
+  font-family: 'Merienda', cursive;
 }
 
 /* ==========================================================================
