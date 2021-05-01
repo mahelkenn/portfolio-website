@@ -95,7 +95,7 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 header, footer {
@@ -158,7 +158,7 @@ nav a {
 }
 
 .hero-area h1 {
-  margin: 20px 75px;
+  margin: 20px;
   width: 90%;
 }
 
@@ -182,7 +182,7 @@ nav a {
 }
 
 .my-life {
-  width: 75%;
+  width: 95%;
   font-size: 1.5em;
 }
 
@@ -191,7 +191,7 @@ nav a {
 }
 
 .my-skills {
-  width: 75%;
+  width: 95%;
   font-size: 1.5em;
 }
 
@@ -378,6 +378,10 @@ footer .copyright {
   
 /* ----------------DELETE EXTRA STUFF NOT NEEDED FROM MOBILE --------------- */
 
+  h1 {
+    font-size: 3em;
+  }
+
   header .content-wrapper {
     justify-content: space-between;
   }
@@ -398,6 +402,11 @@ footer .copyright {
     justify-content: flex-end;
     width: 50%;
     margin-bottom: 0px;
+  }
+
+  .hero-area h1 {
+    margin: 20px 75px;
+    width: 90%;
   }
 
   .about .content-wrapper {
