@@ -211,7 +211,6 @@ nav a {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  padding-bottom: 0px;
 }
 
 .work .projects {
