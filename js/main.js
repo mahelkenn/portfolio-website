@@ -12,16 +12,20 @@ link.forEach(function(l, index) {
     });
 });
 
-// Create event listener to resize portfolio images when mouse is over them //
-const portfolio = document.querySelectorAll("#portfolio");
+// Create event listeners to resize responsive web design image during mouse over, only at tablet and higher size //
+const responsive = document.querySelector("#portfolio");
+const mediaQuery = window.matchMedia('(min-width: 768px)');
 
-portfolio.forEach(function(image, index) {
-    image.addEventListener("mouseover", function() {
-        image.style.width = "500px";
-        image.style.height = "auto";
+responsive.addEventListener("mouseover", function() {
+    if (mediaQuery.matches) {
+        responsive.style.width = "800px";
+        responsive.style.height = "auto";
+        };
     });
-    image.addEventListener("mouseleave", function() {
-        image.style.width = "400px";
-        image.style.height = "auto";
+
+responsive.addEventListener("mouseleave", function() {
+    if (mediaQuery.matches) {
+        responsive.style.width = "400px";
+        responsive.style.height = "auto";
+        };
     });
-});
