@@ -222,6 +222,7 @@ nav a {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  width: 300px;
 }
 
 .page {
@@ -439,6 +440,10 @@ footer .copyright {
 
   .page {
     width: 45%;
+  }
+
+  .work .projects {
+    width: auto;
   }
 
 }
