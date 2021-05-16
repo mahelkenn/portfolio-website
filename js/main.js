@@ -1,5 +1,5 @@
 // Create event listener to resize and change color of links when mouse is over them //
-const link = document.querySelectorAll("#link");
+const link = document.querySelectorAll(".link");
 
 link.forEach(function(l, index) {
     l.addEventListener("mouseover", function() {
