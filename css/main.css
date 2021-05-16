@@ -222,7 +222,11 @@ nav a {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-  width: 300px;
+  width: 95%;
+}
+
+.work h2 {
+  text-align: center;
 }
 
 .page {
