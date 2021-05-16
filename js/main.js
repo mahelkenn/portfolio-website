@@ -14,7 +14,7 @@ link.forEach(function(l, index) {
 
 // Create event listeners to resize responsive web design image during mouse over, only at tablet and higher size //
 const responsive = document.querySelector("#portfolio");
-const mediaQuery = window.matchMedia('(min-width: 1200px)');
+const mediaQuery = window.matchMedia('(min-width: 1275px)');
 
 responsive.addEventListener("mouseover", function() {
     if (mediaQuery.matches) {
